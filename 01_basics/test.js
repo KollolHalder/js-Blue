@@ -1,2 +1,2 @@
-console.log("Blue");
-console.log("Blue is beautiful.");
+let num = 10000000;
+console.log(num.toLocaleString());
