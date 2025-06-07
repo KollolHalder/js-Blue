@@ -24,3 +24,9 @@ let createdDate = new Date("6-1-2025");
 let myTimeStamp = Date.now();
 console.log(myTimeStamp);
 console.log(createdDate2.getTime());
+console.log(Date.now() / 1000); //mili second theke seconde porinoto kore.
+
+let newDate = new Date();
+newDate.toLocaleDateString("default", {
+  weekday: "long"
+});
