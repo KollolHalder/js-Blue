@@ -32,3 +32,7 @@ const users = [
   { name: "brandon", age: 16 },
   { name: "karlie", age: 20 }
 ];
+
+console.log(users[1].name);
+
+console.log(Object.values(person));
